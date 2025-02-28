@@ -1,10 +1,22 @@
 /**Generic CSS elements**/
 body{
     background-color: #222;
-    color: white
+    color: white;
+    font:200 14px 'Poppins', sans-serif
+}
+h2{
+    font-size: :36px;
 }
 h3{
     color: #999;
+    font-size: 18px;
+    font-weight: 300px;
+}
+p{
+    text-align: justify;
+}
+cite{
+    font-weight: 300;
 }
 /**CSS ID's and classes**/
 .hastag{
