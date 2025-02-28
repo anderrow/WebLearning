@@ -1,3 +1,4 @@
+/**Generic CSS elements**/
 body{
     background-color: #222;
     color: white
@@ -5,6 +6,11 @@ body{
 h3{
     color: #999;
 }
+/**CSS ID's and classes**/
 .hastag{
     color: #ffc900;
+}
+#experience{
+    background-color: #999;
+    color: #222;
 }
