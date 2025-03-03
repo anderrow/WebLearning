@@ -26,6 +26,21 @@ cite{
 i{
     font-size: 24px;
 }
+i:hover{
+    color:#ffc900
+}
+a:any-link{
+    color: white;
+}
+
+a:-webkit-any(){
+    color: white;
+}
+
+a:-moz-any-link{
+    color: white
+}
+
 /**CSS ID's and classes**/
 .hastag{
     color: #ffc900;
@@ -33,6 +48,14 @@ i{
 }
 .section{
     padding: 10px 100px 10px 100px;
+}
+.horizontalli{
+    display: inline-block;
+    margin-right: 5px;  
+}
+#SocialMedia{
+    margin-top: 20px;
+    list-style: none;
 }
 #initial{
     background-image: url(../images/Linux.png);
