@@ -54,6 +54,10 @@ i{
 i:hover{
     color:#ffc900
 }
+a{
+    text-decoration: none;
+}
+
 a:any-link{
     color: white;
 }
@@ -65,6 +69,10 @@ a:-webkit-any(){
 a:-moz-any-link{
     color: white
 }
+a:hover{
+    color: #ffc900;
+}
+
 
 /**CSS ID's and classes**/
 .hastag{
