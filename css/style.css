@@ -1,11 +1,16 @@
 /**Generic CSS elements**/
+*{
+    margin: 0px;
+    padding: 0px
+}
 body{
     background-color: #222;
     color: white;
-    font:200 14px 'Poppins', sans-serif
+    font:200 14px 'Poppins', sans-serif;
 }
 h2{
-    font-size: :36px;
+    font-size: 36px;
+    line-height: 36px;
 }
 h3{
     color: #999;
@@ -22,7 +27,13 @@ cite{
 .hastag{
     color: #ffc900;
 }
+.section{
+    padding: 10px 100px 10px 100px;
+}
 #experience{
-    background-color: #999;
+    background-color: white;
     color: #222;
+}
+#portfolio{
+    border-top: 1px solid #ffc900;
 }
