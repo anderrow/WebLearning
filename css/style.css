@@ -8,6 +8,21 @@ body{
     color: white;
     font:200 14px 'Poppins', sans-serif;
 }
+nav{
+    position: fixed;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+nav ul{
+    display: inline-block
+}
+nav ul li{
+    padding-top: 12px;
+    padding-inline: 5px;
+}
 h2{
     font-size: 36px;
     line-height: 36px;
@@ -17,8 +32,18 @@ h3{
     font-size: 18px;
     font-weight: 300px;
 }
+section{
+    padding: 10px 100px 10px 100px;
+}
 p{
     text-align: justify;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    margin-right: 5px;
 }
 cite{
     font-weight: 300;
@@ -46,22 +71,24 @@ a:-moz-any-link{
     color: #ffc900;
     font-weight: 150;
 }
-.section{
-    padding: 10px 100px 10px 100px;
-}
+
 .horizontalli{
     display: inline-block;
     margin-right: 5px;  
 }
+#logo{
+    padding-top: 0px;
+}
 #SocialMedia{
     margin-top: 20px;
-    list-style: none;
 }
+
 #initial{
     background-image: url(../images/Linux.png);
     min-height: 280px; /** Because paddings are 10+10 **/
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 75px;
 }
 #experience{
     background-color: white;
