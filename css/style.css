@@ -104,10 +104,31 @@ button{
     background-color: white;
     color: #222;
 }
-#portfolio{
-    border-top: 1px solid #ffc900;
+.moreinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
+/*About me Grid*/
+#aboutme{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    margin: 0px 5px 5px 0px;
+    border-bottom: 1px solid #ffc900;
+}
+#aboutme h2{
+    margin-bottom: 15px;
+}
+#aboutme p{
+    margin-bottom: 5px;
+}
+#aboutme .moreinfo button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /* Card Portfolio */
 .portfolioRow{
     display: flex;
@@ -134,13 +155,7 @@ button{
     margin: 0pc 5px 5px 0px;
     height: 26px;
 }
-.card .moreinfo button{
-    background-color: #ffc900;
-    font-weight: 600;
-    padding-left: 15px;
-    padding-right: 15px;
-    float: right;
-}
+
 .card .sep{
     margin: 0px 5px 5px 0px;
     border: 1px solid #ffc900
@@ -150,4 +165,5 @@ button{
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 5px;
+    float: right;
 }
