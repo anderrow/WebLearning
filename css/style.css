@@ -135,11 +135,10 @@ button{
 }
 /* Card Portfolio */
 .portfolioRow{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px 30px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    align-content: space-around;
 }
 .card{
     width: 250px;
@@ -160,6 +159,10 @@ button{
 .card h4{
     margin: 0pc 5px 5px 0px;
     height: 26px;
+    color: white;
+}
+.card p{
+    color: white;
 }
 
 .card .sep{
@@ -172,4 +175,35 @@ button{
     margin-right: 5px;
     padding: 5px;
     float: right;
+}
+/*Card Experience*/
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-content: space-around;
+}
+.cardexp{
+    background-color: #494949;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+.cardexp h3{
+    color: white;
+    margin-bottom: 5px;
+}
+.cardexp h4{
+    color: #6d6d6d;
+    margin-bottom: 20px;
+}
+.cardexp p{
+    color: beige;
+}
+.cardexp ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.cardexp li{
+    height:40px
 }
