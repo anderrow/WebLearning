@@ -72,7 +72,9 @@ a:-moz-any-link{
 a:hover{
     color: #ffc900;
 }
-
+button{
+    border-radius: 8px;
+}
 
 /**CSS ID's and classes**/
 .hastag{
@@ -104,4 +106,48 @@ a:hover{
 }
 #portfolio{
     border-top: 1px solid #ffc900;
+}
+
+/* Card Portfolio */
+.portfolioRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px; 
+}
+.card{
+    width: 250px;
+    background-color: #191919;
+    border-radius: 14px;
+}
+.card img{
+    border-radius: 15px 15px 0px 0px;
+}
+.card h3, .card h4, .card .moreinfo button, .card p{
+    padding:0px 15px; 
+}
+.card h3{
+    color: #ffc900;
+}
+.card h4{
+    margin: 0pc 5px 5px 0px;
+    height: 26px;
+}
+.card .moreinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+.card .sep{
+    margin: 0px 5px 5px 0px;
+    border: 1px solid #ffc900
+}
+.card button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px;
 }
