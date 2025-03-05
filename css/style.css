@@ -96,7 +96,7 @@ button{
 
 #initial{
     background-image: url(../images/Linux.png);
-    min-height: 280px; /** Because paddings are 10+10 **/
+    min-height: 150px; /** Because paddings are 10+10 **/
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 75px;
