@@ -133,6 +133,11 @@ button{
     padding-left: 30px;
     padding-right: 30px;
 }
+#experience h2{
+    padding-bottom: 15px;
+    text-align: center;
+    color: #494949;
+}
 /* Card Portfolio */
 .portfolioRow{
     display: grid;
@@ -150,7 +155,7 @@ button{
     display:block;
     margin: auto;
 }
-.card h3, .card h4, .card .moreinfo button, .card p{
+.card h3, .card h4, .card p{
     padding:0px 15px; 
 }
 .card h3{
@@ -173,8 +178,8 @@ button{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
-    padding: 5px;
     float: right;
+    padding: 10px 20px;
 }
 /*Card Experience*/
 .gridexp{
@@ -206,4 +211,39 @@ button{
 }
 .cardexp li{
     height:40px
+}
+
+/*Contact Form*/
+#contact{
+    background-color: #ffc900;
+}
+#contact h2, #contact form{
+    color: black;
+    padding-bottom: 5px;
+}
+#contact h3{
+    color: #222;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.itemform{
+    display: grid;
+    grid-template-columns: 100px 350px;
+    justify-content:  center;
+    margin-bottom: 10px;
+}
+.itemform label{
+    font-weight: 700;
+}
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
 }

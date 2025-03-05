@@ -10,11 +10,11 @@
         <!--Navegation menu-->
         <nav>
             <ul>
-                <li><a href="#about me">About me</a></li>
+                <li><a href="#aboutme">About me</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li id="logo"><img src="./images/Logo.png" alt="White cat"></i></li>
+                <li id="logo"><a href="#initial">  <img src="./images/Logo.png" alt="White cat"></a> </i></li>
                 <li><a href="#experience">Experience</a></li>
-                <li>Contact</li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
          <!--End of navegation menu-->
@@ -93,7 +93,8 @@
                         <h4>Row concept</h4>
                         <div class="sep"></div>
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        <div class="moreinfo"><button type="button">More info</button></div>
+                        <div class="moreinfo">
+                            <button type="button">More info</button></div>
                     </div>
             </section>
             <!--End of Portfolio block-->
@@ -103,7 +104,7 @@
                 <div class="gridexp">
                     <div class="cardexp">
                         <h3>Web design</h3>
-                        <h4 class="lefttext">2020-2022</h4>
+                        <h4 class="lefttext">2025-2026</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <ul>
                             <li><img src="./images/CDH22.png" alt="cat1"></li>
@@ -113,7 +114,7 @@
                     </div>
                     <div class="cardexp">
                         <h3>Web design</h3>
-                        <h4 class="lefttext">2020-2022</h4>
+                        <h4 class="lefttext">2025-2026</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <ul>
                             <li><img src="./images/CDH22.png" alt="cat1"></li>
@@ -123,7 +124,7 @@
                     </div>
                     <div class="cardexp">
                         <h3>Web design</h3>
-                        <h4 class="lefttext">2020-2022</h4>
+                        <h4 class="lefttext">2025-2026</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <ul>
                             <li><img src="./images/CDH22.png" alt="cat1"></li>
@@ -133,7 +134,7 @@
                     </div>
                     <div class="cardexp">
                         <h3>Web design</h3>
-                        <h4 class="lefttext">2020-2022</h4>
+                        <h4 class="lefttext">2025-2026</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <ul>
                             <li><img src="./images/CDH22.png" alt="cat1"></li>
@@ -143,7 +144,7 @@
                     </div>
                     <div class="cardexp">
                         <h3>Web design</h3>
-                        <h4 class="lefttext">2020-2022</h4>
+                        <h4 class="lefttext">2025-2026</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <ul>
                             <li><img src="./images/CDH22.png" alt="cat1"></li>
@@ -153,7 +154,7 @@
                     </div>
                     <div class="cardexp">
                         <h3>Web design</h3>
-                        <h4 class="lefttext">2020-2022</h4>
+                        <h4 class="lefttext">2025-2026</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <ul>
                             <li><img src="./images/CDH22.png" alt="cat1"></li>
@@ -164,10 +165,38 @@
                 </div>
             </section>
             <!--End of Experience and skill block-->
+            <section id="contact">
+                <h2>Contact</h2>
+                <h3>Ask me whatever you want</h3>
+                <form action="">
+                    <div class="itemform">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" minlength="3" maxlength="64" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" minlength="2" maxlength="128" size="32">
+                    </div>
+                    <div class="itemform">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" minlength="2" maxlength="128" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="textarea">Text</label>
+                       <textarea name="textarea" id="textarea" cols="33" rows="5"></textarea>
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" name="contactbutton" value="Contact">
+                    </div>
+                </form>
+            </section>
         </article>
         <!--Footer block-->
         <footer>
-
+            <ul>
+                <li class="logo"><a href="#initial"><img src="./images/SmallEvilCat.png" alt="Evil cat"></a></li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis perferendis id ducimus, distinctio expedita perspiciatis similique velit, repellendus obcaecati, modi nihil. Libero dolore quod illum, earum culpa voluptate voluptates.</li>
+            </ul>
         </footer>
          <!--End of footer block-->
     </body>
