@@ -188,7 +188,8 @@ button{
     grid-gap: 10px;
     align-content: space-around;
 }
-@media (min-width: 400px;){
+
+@media (min-width: 400px){
     .gridexp{
         display: flex;
         flex-direction: row;
