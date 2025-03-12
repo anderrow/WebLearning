@@ -189,7 +189,7 @@ button{
     align-content: space-around;
 }
 
-@media (min-width: 400px){
+@media (max-width: 400px){
     .gridexp{
         display: flex;
         flex-direction: row;
